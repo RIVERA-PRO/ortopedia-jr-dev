@@ -1,0 +1,434 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    position: fixed;
+	z-index: 1000;
+    display: flex;
+    width: 100%;
+    display: flex;
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.navbar-nav a{
+    color: #ffff;
+ font-size: 17px;
+ margin: 6px;
+}
+.navbar-nav a:hover{
+    color: #62d2a2;
+}
+
+.navbar-brand{
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-fluid a:hover{
+    color: #62d2a2;
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 3, 0.27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 13%;
+}
+
+.redes-sociales a{
+    color: #ffff;
+    padding: 5px;
+}
+.redes-sociales a:hover{
+    color: #62d2a2;
+}
+
+
+.collapse{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+/*home-------------------------------------------------------------*/
+
+.home{
+background-image: url(./images/home-fondo.png);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+
+ .home-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #ffff;
+ }
+ .home-text h1{
+font-size: 40px;
+    font-weight: 600;
+ }
+ .home-text p{
+    font-size: 12px;
+     }
+
+
+.btn {
+      background-color: #ffff;
+      border-radius: 7px;
+      padding: 10px 10px;
+      width: 130px;
+}
+.btn a{
+    color: #62d2a2;
+}
+
+.carousel-inner{
+    width: 100%;
+    padding: 17%;
+}
+
+
+
+/*departamentos-------------------------------------------------------------*/
+
+.departamentos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 13%;
+}
+
+.departamentos h2{
+    font-weight: 600;
+
+}
+.departamentos p{
+  font-size: 13px;
+
+}
+
+.tipos{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	align-items: center;
+    gap: 2rem;
+}
+.departamentos-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #62d2a2;
+    width: 90px;
+    height: 90px;
+    border-radius:100px ;
+}
+
+.departamentos-img img{
+    width: 50px;
+    height: 50px;
+}
+
+.departamentos-text{
+    padding-top: 50px;
+}
+
+.departamentos-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.departamentos-text h5{
+font-weight: 600;
+font-size:15px;
+    padding-top: 20px;
+}
+.departamentos-text p{
+    font-size:13px;
+}
+
+.btn-mas{
+    width: 100px;
+    background-color: #62d2a2;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.btn-mas a{
+    color: #ffff;
+}
+.btn-mas a:hover{
+    color: #000;
+}
+
+
+/*about-------------------------------------------------------------*/
+
+.about{
+    padding: 100px 13%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap:1rem
+}
+
+.about-img img{
+    border-radius: 15px;
+    width: 90%;
+
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.about-text h3{
+    font-weight: 600;
+}
+
+.about-text p{
+    font-size:13px;
+}
+
+
+/*doctores-------------------------------------------------------------*/
+
+.doctores{
+   
+    padding: 100px 13%;
+    background-color:#178066 ;
+    text-align: center;
+}
+.doctores h2{
+color: #ffff;
+font-weight: 600;
+}
+
+.doctores p{
+    color: #ffff;
+    font-size: 13px;
+}
+
+.cards{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+}
+
+.card{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.doctores i{
+    color: #62d2a2;
+}
+
+.doctores i:hover{
+    color: #178066;
+}
+
+.card img:hover{
+    transform: translateY(-15px);
+    }
+
+.card img {overflow:hidden;
+    transition: all .40s ease;}
+.card img{
+    border-radius: 15px;
+}
+
+.card h6{
+
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.boton{
+    padding-top: 50px;
+}
+
+
+
+
+/*testimonios-------------------------------------------------------------*/
+
+.testimonios{
+    margin-top: 10px;
+    background-color: #62d2a2;
+    border-radius: 3000px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-border-radius: 3000px;
+    -moz-border-radius: 3000px;
+    -ms-border-radius: 3000px;
+    -o-border-radius: 3000px;
+}
+.testimonios h2{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+
+.testimonios .carousel-item img{
+    border-radius: 200px;
+    width: 100px;
+}
+
+
+.conten-testimonios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*Contacto-------------------------------------------------------------*/
+
+.contacto{
+    padding: 100px 10%;
+    text-align: center;
+}
+.contacto h2{
+    font-weight: 600;
+}
+
+
+
+.form-contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1rem;
+    padding: 15px ;
+    background-color: #62d2a2;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+width: 100%;
+   
+}
+
+
+
+
+
+
+/*footer--------------------------------------------------*/
+iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.footer{
+    padding: 100px 13%;
+    background-color: #178066;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 4rem;
+    color: #ffff;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.footer p{
+   font-size: 13px
+}
+
+.footer a{
+    font-size: 15px;
+    color: #ffff;
+ }
+
+ .footer .redes-sociales{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .Copyright{
+    text-align: center;
+    background-color: #178066;
+    color: #ffff;
+    height: 50px;
+    padding: 10px;
+ }
+
+ .Copyright img{
+    width: 60px;
+ }
+
+ .Copyright p{
+    font-size: 13px;
+ }
+
+
+
+ @media (max-width: 600px){
+
+	header{
+        position: fixed;
+        width: 100%;
+        background-color: #178066;
+       
+    }
+
+    .navbar-brand{
+        color: #ffff;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .collapse{
+        flex-direction: column;
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    width: 90%;
+       
+    }
+}
